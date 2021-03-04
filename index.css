@@ -27,6 +27,10 @@ label {
     margin: 1rem 0;
 }
 
+.femContainer {
+    display:inline-block;
+}
+
 .anoNasc {
     width:10rem;
 }
@@ -78,6 +82,7 @@ label {
 @media screen and (max-width: 500px) {
     body {
         font-size: 10pt;
+        word-break:break-all;
     }
 
     .container {
@@ -86,10 +91,15 @@ label {
 
     .anoNasc {
         width: 50%;
+        margin-top:0.5rem;
     }
 
     .button {
         width: 50%;
+    }
+
+    .femContainer {
+        display:block;
     }
 
     .imagemPessoa {
