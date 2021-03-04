@@ -1,0 +1,60 @@
+body {
+    margin:auto;
+    width: 50%;
+    background-color:rgb(81, 120, 192);
+}
+
+.tituloPrincipal {
+    text-align: center;
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+
+.container {
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6);
+    padding:2rem;
+}
+
+label {
+    font-size:1.5rem;
+}
+
+.anoNasc {
+    width:10rem;
+}
+
+.button {
+    display:block;
+    width:10rem;
+    background-color:rgb(81, 120, 192);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    height:2rem;
+    box-shadow:2px 2px 5px black;
+    border-color:rgb(81, 120, 192);
+}
+
+.mensagemFinal {
+    text-align:center;
+    font-size:1.5rem;
+    display:none;
+}
+
+.imagemPessoa {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    margin:auto;
+    display:none;
+    border-radius:10rem;
+}
+
+.footerTexto {
+    font-size:1.5rem;
+    color:white;
+    text-align:center;
+    text-shadow:2px 2px 5px black;
+}
